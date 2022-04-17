@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgoldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkred;
+    margin: 1em;
+}
+
+video {
+    margin: 1em;
+}
